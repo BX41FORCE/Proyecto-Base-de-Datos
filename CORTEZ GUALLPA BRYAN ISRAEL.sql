@@ -46,5 +46,4 @@ CREATE TABLE SistemaOp(
     nombre VARCHAR(40) NULL,
     compañia VARCHAR(50) NOT NULL,
     añoSalida DATE,
-    PRIMARY KEY (id));
-    
+    PRIMARY KEY (id));    

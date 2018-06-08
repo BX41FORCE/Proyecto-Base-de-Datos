@@ -1,6 +1,6 @@
-USE Juegos;    
+USE Juegos;
+/*insertamos valores en las tablas*/    
 INSERT INTO Juego VALUES(1,'Call of Duty Black Ops 4','Shooter','2018/10/12');
-/*insertamos valores en las tablas*/
 INSERT INTO Juego VALUES(2,'Need for Speed Payback','Racing','2017/11/10');	
 INSERT INTO Desarrollador VALUES(1,'Treyarch','Treyarch es una compañía de desarrollo de videojuegos estadounidense fundada en 1996 por Peter Akerman, Doğan Kösl.');
 INSERT INTO Desarrollador VALUES(2,'Ghost Games','Ghost Games es un desarrollador de videojuegos sueco propiedad de Electronic Arts.');    
