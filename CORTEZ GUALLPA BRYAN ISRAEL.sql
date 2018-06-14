@@ -47,3 +47,13 @@ CREATE TABLE SistemaOp(
     compañia VARCHAR(50) NOT NULL,
     añoSalida DATE,
     PRIMARY KEY (id));    
+/*Eliminaos la tabla Costo si existe antes*/
+DROP TABLE IF EXISTS Costo;
+/*Creamos una tabla llamada Plataforma*/
+CREATE TABLE Costo(
+    id INT NOT NULL AUTO_INCREMENT,
+    nombreJuego VARCHAR(40) NULL,
+    precio INT,
+    relacion INT,
+    FOREIGN KEY (relacion) REFERENCES Juego (id),
+    PRIMARY KEY (id));
