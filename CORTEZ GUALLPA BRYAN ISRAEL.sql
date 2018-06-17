@@ -54,6 +54,4 @@ CREATE TABLE Costo(
     id INT NOT NULL AUTO_INCREMENT,
     nombreJuego VARCHAR(40) NULL,
     precio INT,
-    relacion INT,
-    FOREIGN KEY (relacion) REFERENCES Juego (id),
     PRIMARY KEY (id));
