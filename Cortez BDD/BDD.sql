@@ -1,0 +1,15 @@
+CREATE DATABASE Contactos;
+
+USE Contactos;
+
+CREATE TABLE Persona(
+id INT NOT NULL AUTO_INCREMENT,
+nombres VARCHAR (300),
+apellidos VARCHAR(300),
+idGenero INT,
+PRIMARY KEY (id));
+
+CREATE TABLE Genero (
+id INT NOT NULL AUTO_INCREMENT,
+detalle VARCHAR (10),
+PRIMARY KEY (id));

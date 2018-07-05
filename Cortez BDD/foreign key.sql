@@ -1,0 +1,3 @@
+USE Contactos;
+
+ALTER TABLE Persona ADD CONSTRAINT R_1 FOREIGN KEY (idGenero) REFERENCES Genero(id);
